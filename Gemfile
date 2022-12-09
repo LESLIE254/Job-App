@@ -14,7 +14,7 @@ gem 'bcrypt', '~> 3.1.7'
 
 #Faker
 gem 'faker'
-
+gem 'sprockets', '~> 3.7.2'
 #serializers
 gem 'active_model_serializers'
 
