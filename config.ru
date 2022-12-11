@@ -8,6 +8,7 @@ require 'rack/cors'
 use Rack::Cors do
 
  # allow all origins in development
+ #added this to remove the cors error in the render app
  allow do
    origins '*'
    resource '*',
